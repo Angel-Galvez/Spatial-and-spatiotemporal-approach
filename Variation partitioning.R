@@ -32,7 +32,7 @@ xy2$Days<-NULL
 coords<-xy2
 
 # PCA environment
-pca.env <- as.data.frame(scores(rda(env[,c(1:6)], scale = TRUE), choices = c(1:6), display = "si")) #First 6 PCs
+pca.env <- as.data.frame(scores(rda(env[,c(1:3)], scale = TRUE), choices = c(1:6), display = "si")) #First 6 PCs
 
 #-------------------------------------------------------------------------------------------------
 # Forward selection
